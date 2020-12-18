@@ -28,7 +28,7 @@ public class LoginPage extends BasePage{
 		 return driver.getTitle();
 	 }
 	
-	public boolean verifySigInLink(){
+	public boolean verifySignInLink(){
 		return driver.findElement(signInLink).isDisplayed();
 	}
 	

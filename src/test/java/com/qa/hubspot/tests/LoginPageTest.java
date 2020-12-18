@@ -36,8 +36,8 @@ public class LoginPageTest {
 	
 	
 	@Test(priority = 2)
-	public void verifySigInLinkTest(){
-		Assert.assertTrue(loginPage.verifySigInLink(), "sigup link is not displayed...");
+	public void verifySignInLinkTest(){
+		Assert.assertTrue(loginPage.verifySignInLink(), "sigup link is not displayed...");
 	}
 	
 	@Test(priority = 3)
