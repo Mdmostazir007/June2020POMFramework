@@ -81,14 +81,34 @@ public class BasePage {
 	}
 	
 	/**
-	 * this method is used to initialize the properties from config.properties file
+	 * this method is used to initialize the properties from config.properties file of given path
 	 * @return prop
 	 */
 	public Properties inti_prop(){
+		String path = null;
+		String env = null;
 		
 		prop = new Properties();
 		try {
-			FileInputStream ip = new FileInputStream("./src/main/java/com/qa/hubspot/config/config.properties");
+			env = System.getProperty("env");
+			if(env == null){
+				path = "./src/main/java/com/qa/hubspot/config/config.properties";
+			}else{
+				switch(env){
+				case "qa":
+				     path = "./src/main/java/com/qa/hubspot/config/qa.config.properties";
+				     break;
+				case "dev":
+					 path = "./src/main/java/com/qa/hubspot/config/dev.config.properties";
+					 break;
+			    default :
+			    	System.out.println("please pass the correct env value---->"+env);
+			    	break;
+				}
+				
+			}
+			
+			FileInputStream ip = new FileInputStream(path);
 			prop.load(ip);
 		} catch (FileNotFoundException e) {
  			e.printStackTrace();
