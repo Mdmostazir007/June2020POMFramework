@@ -16,6 +16,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
 import com.qa.hubspot.utils.ElementUtil;
+import com.qa.hubspot.utils.OptionsManager;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -30,6 +31,7 @@ public class BasePage {
 	WebDriver driver;
 	public Properties prop;
 	public ElementUtil elementUtil;
+	public OptionsManager optionsManager;
 
 	public static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<WebDriver>();
 	
@@ -44,18 +46,18 @@ public class BasePage {
 	 * @return driver
 	 */
 	public WebDriver init_driver(Properties prop){
-		
+		optionsManager = new OptionsManager(prop);
         String browserName = prop.getProperty("browser");
 		
 		if(browserName.equalsIgnoreCase("chrome")){
 			WebDriverManager.chromedriver().setup(); 
 			//driver = new ChromeDriver();
-			tlDriver.set(new ChromeDriver());
+			tlDriver.set(new ChromeDriver(optionsManager.getChromeOptions()));
 		}
 		else if(browserName.equalsIgnoreCase("firefox")){
 			WebDriverManager.firefoxdriver().setup();
 			//driver = new FirefoxDriver();
-			tlDriver.set(new FirefoxDriver());
+			tlDriver.set(new FirefoxDriver(optionsManager.getFirefoxOptions()));
 
 		}
 		else if(browserName.equalsIgnoreCase("safari")){

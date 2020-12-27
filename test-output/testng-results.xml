@@ -1,112 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="6" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
-    <line>
-      <![CDATA[<a href='C:\Users\Sumon\workspace\NewPOMFramework\target\surefire-reports\failure_screenshots\verifyHomePageTitleTest_26_12_2020_04_20_00.png'> <img src='C:\Users\Sumon\workspace\NewPOMFramework\target\surefire-reports\failure_screenshots\verifyHomePageTitleTest_26_12_2020_04_20_00.png' height='100' width='100'/> </a>]]>
-    </line>
   </reporter-output>
-  <suite name="Automationpractice regression suite" duration-ms="30704" started-at="2020-12-26T21:19:30Z" finished-at="2020-12-26T21:20:01Z">
+  <suite name="Automationpractice regression suite" duration-ms="22300" started-at="2020-12-27T16:59:22Z" finished-at="2020-12-27T16:59:44Z">
     <groups>
     </groups>
-    <test name="login page test" duration-ms="10626" started-at="2020-12-26T21:19:30Z" finished-at="2020-12-26T21:19:41Z">
+    <test name="login page test" duration-ms="13267" started-at="2020-12-27T16:59:22Z" finished-at="2020-12-27T16:59:35Z">
       <class name="com.qa.hubspot.tests.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@2f7a7219]" name="setUp" is-config="true" duration-ms="7904" started-at="2020-12-26T21:19:30Z" finished-at="2020-12-26T21:19:38Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@7c041b41]" name="setUp" is-config="true" duration-ms="10209" started-at="2020-12-27T16:59:22Z" finished-at="2020-12-27T16:59:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.hubspot.tests.LoginPageTest@2f7a7219]" name="verifyLoginPageTitleTest" duration-ms="116" started-at="2020-12-26T21:19:38Z" finished-at="2020-12-26T21:19:38Z">
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.hubspot.tests.LoginPageTest@7c041b41]" name="verifyLoginPageTitleTest" duration-ms="93" started-at="2020-12-27T16:59:32Z" finished-at="2020-12-27T16:59:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTitleTest -->
-        <test-method status="PASS" signature="verifySignInLinkTest()[pri:2, instance:com.qa.hubspot.tests.LoginPageTest@2f7a7219]" name="verifySignInLinkTest" duration-ms="62" started-at="2020-12-26T21:19:38Z" finished-at="2020-12-26T21:19:39Z">
+        <test-method status="PASS" signature="verifySignInLinkTest()[pri:2, instance:com.qa.hubspot.tests.LoginPageTest@7c041b41]" name="verifySignInLinkTest" duration-ms="61" started-at="2020-12-27T16:59:33Z" finished-at="2020-12-27T16:59:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySignInLinkTest -->
-        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.qa.hubspot.tests.LoginPageTest@2f7a7219]" name="loginTest" duration-ms="1540" started-at="2020-12-26T21:19:39Z" finished-at="2020-12-26T21:19:40Z">
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.qa.hubspot.tests.LoginPageTest@7c041b41]" name="loginTest" duration-ms="1983" started-at="2020-12-27T16:59:33Z" finished-at="2020-12-27T16:59:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@2f7a7219]" name="tearDown" is-config="true" duration-ms="744" started-at="2020-12-26T21:19:40Z" finished-at="2020-12-26T21:19:41Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@7c041b41]" name="tearDown" is-config="true" duration-ms="764" started-at="2020-12-27T16:59:35Z" finished-at="2020-12-27T16:59:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.hubspot.tests.LoginPageTest -->
     </test> <!-- login page test -->
-    <test name="home page test" duration-ms="20054" started-at="2020-12-26T21:19:41Z" finished-at="2020-12-26T21:20:01Z">
+    <test name="home page test" duration-ms="9008" started-at="2020-12-27T16:59:35Z" finished-at="2020-12-27T16:59:44Z">
       <class name="com.qa.hubspot.tests.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@3f19b8b3]" name="setUp" is-config="true" duration-ms="7043" started-at="2020-12-26T21:19:41Z" finished-at="2020-12-26T21:19:48Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@791cbf87]" name="setUp" is-config="true" duration-ms="6926" started-at="2020-12-27T16:59:35Z" finished-at="2020-12-27T16:59:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="homeSetUP()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@3f19b8b3]" name="homeSetUP" is-config="true" duration-ms="1549" started-at="2020-12-26T21:19:48Z" finished-at="2020-12-26T21:19:50Z">
+        <test-method status="PASS" signature="homeSetUP()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@791cbf87]" name="homeSetUP" is-config="true" duration-ms="1342" started-at="2020-12-27T16:59:42Z" finished-at="2020-12-27T16:59:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homeSetUP -->
-        <test-method status="PASS" signature="verifyHomePageHeaderTest()[pri:1, instance:com.qa.hubspot.tests.HomePageTest@3f19b8b3]" name="verifyHomePageHeaderTest" duration-ms="81" started-at="2020-12-26T21:19:50Z" finished-at="2020-12-26T21:19:50Z">
+        <test-method status="PASS" signature="verifyHomePageHeaderTest()[pri:1, instance:com.qa.hubspot.tests.HomePageTest@791cbf87]" name="verifyHomePageHeaderTest" duration-ms="54" started-at="2020-12-27T16:59:44Z" finished-at="2020-12-27T16:59:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageHeaderTest -->
-        <test-method status="PASS" signature="verifyLoggedInUserTesta()[pri:2, instance:com.qa.hubspot.tests.HomePageTest@3f19b8b3]" name="verifyLoggedInUserTesta" duration-ms="75" started-at="2020-12-26T21:19:50Z" finished-at="2020-12-26T21:19:50Z">
+        <test-method status="PASS" signature="verifyLoggedInUserTesta()[pri:2, instance:com.qa.hubspot.tests.HomePageTest@791cbf87]" name="verifyLoggedInUserTesta" duration-ms="62" started-at="2020-12-27T16:59:44Z" finished-at="2020-12-27T16:59:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoggedInUserTesta -->
-        <test-method status="FAIL" signature="verifyHomePageTitleTest()[pri:3, instance:com.qa.hubspot.tests.HomePageTest@3f19b8b3]" name="verifyHomePageTitleTest" duration-ms="10285" started-at="2020-12-26T21:19:50Z" finished-at="2020-12-26T21:20:00Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for title to contain "My account - My Store123". Current title: "My account - My Store" (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-KGFJJ8B', ip: '192.168.1.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Sumon\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 5a73a40e385b88df992159940614dfe4]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain "My account - My Store123". Current title: "My account - My Store" (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-KGFJJ8B', ip: '192.168.1.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Sumon\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 5a73a40e385b88df992159940614dfe4
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-at com.qa.hubspot.utils.ElementUtil.waitForTitleToBePresent(ElementUtil.java:165)
-at com.qa.hubspot.pages.HomePage.getHomePageTitle(HomePage.java:31)
-at com.qa.hubspot.tests.HomePageTest.verifyHomePageTitleTest(HomePageTest.java:25)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:3, instance:com.qa.hubspot.tests.HomePageTest@791cbf87]" name="verifyHomePageTitleTest" duration-ms="11" started-at="2020-12-27T16:59:44Z" finished-at="2020-12-27T16:59:44Z">
           <reporter-output>
-            <line>
-              <![CDATA[<a href='C:\Users\Sumon\workspace\NewPOMFramework\target\surefire-reports\failure_screenshots\verifyHomePageTitleTest_26_12_2020_04_20_00.png'> <img src='C:\Users\Sumon\workspace\NewPOMFramework\target\surefire-reports\failure_screenshots\verifyHomePageTitleTest_26_12_2020_04_20_00.png' height='100' width='100'/> </a>]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyHomePageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@3f19b8b3]" name="tearDown" is-config="true" duration-ms="673" started-at="2020-12-26T21:20:00Z" finished-at="2020-12-26T21:20:01Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@791cbf87]" name="tearDown" is-config="true" duration-ms="594" started-at="2020-12-27T16:59:44Z" finished-at="2020-12-27T16:59:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
